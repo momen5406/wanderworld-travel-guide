@@ -115,7 +115,7 @@ header {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 header h2 {
@@ -128,7 +128,7 @@ header h2 {
 
 @media (max-width: 576px) {
   header h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
@@ -259,3 +259,55 @@ header form button:hover {
   line-height: 1.1;
 }
 /* End Header */
+
+/* Start Country */
+.country-section .nav ul {
+  font-size: 1rem;
+  font-weight: var(--text-weight-slightly-bold);
+}
+
+.country-section .nav ul i {
+  font-size: .875rem;
+}
+
+.country-section .nav ul .country {
+  color: var(--secondary-color);
+}
+
+.country-section .nav .exitBtn {
+  font-size: 1.5rem;
+}
+
+.country-section .carousel,
+.country-section .carousel-inner {
+  max-height: 550px !important;
+  /* overflow: hidden; */
+}
+
+.country-section .info h2 {
+  font-weight: var(--text-weight-bold);
+  font-size: 3rem;
+  letter-spacing: -2px;
+}
+
+.country-section .info .description {
+  display: -webkit-box;
+  line-clamp: 4; 
+  -webkit-line-clamp: 4; 
+  -webkit-box-orient: vertical; 
+  overflow: hidden;   
+  width: 50%;
+  font-size: .875rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .country-section .info .description {   
+    width: 100%;
+  }
+}
+
+.country-section .info .description b {
+  color: var(--secondary-color);
+}
+/* End Country */

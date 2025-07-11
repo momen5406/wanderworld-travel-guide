@@ -23,10 +23,8 @@ rightButton.addEventListener("click", () => {
 
   if ( Math.abs(newTranslateX) < slider.scrollWidth ) {
     slider.style.transform = `translateX(${newTranslateX}px)`;
-    console.log(`Right: translateX(${newTranslateX}px)`);
   }
 
-  console.log(slider.scrollWidth);
 });
 
 leftButton.addEventListener("click", () => {
@@ -35,7 +33,6 @@ leftButton.addEventListener("click", () => {
 
   const newTranslateX = Math.min(translatedX + width + 16, 0);
   slider.style.transform = `translateX(${newTranslateX}px)`;
-  console.log(`Left: translateX(${newTranslateX}px)`);
 
 });
 
