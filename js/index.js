@@ -1,3 +1,5 @@
 import "./nav.js";
 import "./slider.js";
-import "./search.js"
+import { Search } from "./search.js";
+
+new Search();
