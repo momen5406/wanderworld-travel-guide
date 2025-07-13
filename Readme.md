@@ -1,49 +1,71 @@
-# 🌍 WanderWorld – Travel Guide Web App
+# 🌍 WanderWorld – Explore Cities Around the Globe
 
-WanderWorld is a responsive multi-page travel guide web application inspired by the layout and UI of Tripadvisor. It allows users to explore major global destinations, view real-time weather updates, and learn about city and country details — all fetched dynamically from public APIs.
+WanderWorld is a travel guide web app I built to strengthen my skills in working with **real-world APIs** and **object-oriented programming in JavaScript**. It allows users to search for any country and instantly view:
+
+* ✅ A brief description (via Wikipedia API)
+* 📸 Real images from Unsplash
+* ☁️ 3-day weather forecast using WeatherAPI
+* 🌐 Key country info (flag, capital, region, languages, currency, timezone, etc.)
+
+I built this project using HTML, CSS (Bootstrap 5), and vanilla JavaScript. All the APIs are fetched dynamically, and I’ve focused on a smooth and responsive UI/UX.
 
 ---
 
-## ✨ Features
+## 🔧 Features
 
-- 🌆 Featured Destinations Section (with modern card layout)
-- 🌐 Explore Page with:
-  - Real-time weather info via OpenWeatherMap API
-  - Country and city data via RestCountries API
-  - Destination photos (via Unsplash API or static assets)
-- 🎨 Fully responsive layout using Bootstrap 5
-- 🌗 Dark/light theme toggle (optional)
-- 📱 Mobile-first design with clean UI
-- 🚀 Smooth transitions between destinations using custom JavaScript
+* Dynamic multi-API integration (RestCountries, Wikipedia, Unsplash, WeatherAPI)
+* Custom loading animation and transitions
+* Clean, responsive design with smooth carousel and sliding featured destinations
+* Country data card with real-time info
 
 ---
 
 ## 🧰 Tech Stack
 
-- **HTML5**, **CSS3**, **JavaScript**
-- **Bootstrap 5**
-- **APIs Used**:
-  - [OpenWeatherMap](https://openweathermap.org/)
-  - [RestCountries](https://restcountries.com/)
-  - [Unsplash](https://unsplash.com/documentation)
+* HTML5
+* CSS3 + Bootstrap 5
+* JavaScript (ES6+)
+* REST APIs
 
 ---
 
-## ⚠️ Disclaimer
+## 📂 Project Structure
 
-This project is created **for educational purposes only** and is **not affiliated with or endorsed by Tripadvisor Inc.**  
-The layout is inspired by their public design as a UI/UX practice project.
+```
+📁 css
+   ├── index.css
+   ├── loader.css
+📁 js
+   ├── index.js
+   ├── search.js
+   ├── country.js
+   ├── UI.js
+   └── slider.js
+📁 img
+   └── landing.jpg
+index.html
+```
 
 ---
 
-## 📸 Live Demo
+## 🚀 Live Demo
 
-👉 [View Live Demo](https://your-demo-link.netlify.app) *(replace with your link)*
+![Homepage Screenshot](img/screenshot.png)
+
+[Live Website](https://momen5406.github.io/wanderworld-travel-guide/)
+
+[GitHub Repository](https://github.com/momen5406/wanderworld-travel-guide)
 
 ---
 
-## 📂 Project Status
+## 👨‍💼 About Me
 
-✅ Home page complete  
-🔄 Explore and Gallery in development  
-🛠️ Contact and Theme toggle upcoming
+I’m Mo’men Hussein, a passionate web developer and designer. I love mixing clean UI with functional logic and making things that feel alive. This project was a big step forward in working with real APIs and building dynamic UI components.
+
+Feel free to check out the repo or reach out if you have feedback!
+
+---
+
+## 📌 License
+
+This project is for educational purposes only. It is a non-commercial, API-integrated clone-inspired travel app.
